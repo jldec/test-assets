@@ -1,5 +1,10 @@
 @import url('google-fonts/css/poppins.css');
 
+/* doesn't work in Firefox */
+@view-transition {
+  navigation: auto;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
